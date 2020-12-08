@@ -85,7 +85,7 @@ footer {
   font-family: "Sansita Swashed", cursive;
   text-align: center;
   font-size: 30px;
-  color: #5d685b; }
+  color: #82947e; }
 
 .icono {
   width: 25px;
@@ -196,26 +196,20 @@ a:hover {
 .centrar {
   text-align: center; }
 
-.fotoAmasa {
-  background-image: url(../../mi_repositorio/Imagenes/cocinando.jpg);
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .qsm {
-  background-image: url(../../mi_repositorio/Imagenes/Imagen1.jpg);
+  background-image: url(../Imagenes/Imagen1.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .fotoFondo {
-  background-image: url(../../mi_repositorio/Imagenes/pizzaFondo.jpg);
+  background-image: url(../Imagenes/pizzaFondo.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .fotoComprar {
-  background-image: url(../../mi_repositorio/Imagenes/fotoComprar.jpg);
+  background-image: url(../Imagenes/fotoComprar.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -224,19 +218,19 @@ a:hover {
   text-align: left; }
 
 .fotoFondo {
-  background-image: url(../../mi_repositorio/Imagenes/fotoProductos);
+  background-image: url(../Imagenes/fotoProductos);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .fotoForm {
-  background-image: url(../../mi_repositorio/Imagenes/fotoFormulario.jpg);
+  background-image: url(../Imagenes/fotoFormulario.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
 
 .fotoProductos {
-  background-image: url(../../mi_repositorio/Imagenes/fotoProd.jpg);
+  background-image: url(../Imagenes/fotoProd.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
