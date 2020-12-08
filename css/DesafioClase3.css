@@ -2,44 +2,40 @@ body {
   background-color: bisque; }
 
 .header {
-  color: green;
+  color: #dff8da;
   font-family: "Sansita Swashed", cursive;
   font-size: 80px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 table {
   border: black solid; }
 
 nav {
-  background-color: #47b18d;
+  display: inline-block;
   text-align: center;
   font-family: 'Lobster', cursive;
   color: white;
   font-size: 25px;
-  margin-top: 2%;
-  margin-bottom: 2%; }
+  word-spacing: 10px; }
 
 a {
   text-decoration: none;
-  color: inherit; }
-
-ul {
-  list-style: none;
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px; }
+  color: inherit;
+  font-size: 25px; }
 
 .seccion_titulo {
   font-family: "Sansita Swashed", cursive;
   text-align: center;
   font-size: 40px;
-  color: green; }
+  color: #dff8da; }
 
 fieldset {
   background: #dda49a;
   border: none;
   border-radius: 25px;
-  width: 900px;
+  width: 1000px;
+  height: 375px;
   text-align: center;
   font-family: 'Lobster', cursive;
   color: white;
@@ -47,9 +43,9 @@ fieldset {
   margin: 0 auto; }
 
 .input {
-  background-color: grey;
+  background-color: white;
   border-radius: 10px;
-  width: 400px;
+  width: 850px;
   height: 25px; }
 
 .boton {
@@ -76,18 +72,20 @@ textarea {
 footer {
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 30px; }
+  font-size: 30px;
+  color: #dff8da; }
 
 .parrafo {
   font-family: "Sansita Swashed", cursive;
   text-align: center;
-  font-size: 30px; }
+  font-size: 30px;
+  color: white; }
 
 .seccion_subtitulo {
   font-family: "Sansita Swashed", cursive;
   text-align: center;
   font-size: 30px;
-  color: green; }
+  color: #5d685b; }
 
 .icono {
   width: 25px;
@@ -142,11 +140,10 @@ footer {
 
 .imagenes {
   height: 300px;
-  width: 200px;
+  width: 300px;
   display: inline-block;
   border: 5px solid black;
-  margin: 30px;
-  transition: all 1s; }
+  margin: 30px; }
 
 header {
   grid-area: titulo; }
@@ -171,11 +168,6 @@ footer {
   grid-area: subt;
   justify-self: center; }
 
-.imagenes:hover {
-  width: 275px;
-  height: 350px;
-  transition: all 1s; }
-
 @keyframes fixed {
   0% {
     background-color: burlywood; }
@@ -187,46 +179,64 @@ footer {
 a:hover {
   color: black; }
 
-@media screen and (min-width: 320px) {
-  .seccion_titulo {
-    font-family: "Sansita Swashed", cursive;
-    text-align: center;
-    font-size: 20px;
-    color: green; }
-  .parrafo {
-    font-family: "Sansita Swashed", cursive;
-    text-align: center;
-    font-size: 15px; }
-  footer {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 15px; }
-  nav {
-    font-size: 20px; }
-  .header {
-    color: green;
-    font-family: "Sansita Swashed", cursive;
-    font-size: 40px;
-    text-align: center; } }
+.iconosfooter {
+  height: 1px;
+  width: 1px; }
 
-@media screen and (min-width: 768px) {
-  .seccion_titulo {
-    font-family: "Sansita Swashed", cursive;
-    text-align: center;
-    font-size: 40px;
-    color: green; }
-  .parrafo {
-    font-family: "Sansita Swashed", cursive;
-    text-align: center;
-    font-size: 30px; }
-  footer {
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 30px; }
-  nav {
-    font-size: 35px; }
-  .header {
-    color: green;
-    font-family: "Sansita Swashed", cursive;
-    font-size: 80px;
-    text-align: center; } }
+.quienesSomos {
+  font-size: 25px; }
+
+.comiendoPizza {
+  height: 40px;
+  width: 40px; }
+
+#titPrincipal {
+  margin-top: 10px; }
+
+.centrar {
+  text-align: center; }
+
+.fotoAmasa {
+  background-image: url(../../mi_repositorio/Imagenes/cocinando.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.qsm {
+  background-image: url(../../mi_repositorio/Imagenes/Imagen1.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fotoFondo {
+  background-image: url(../../mi_repositorio/Imagenes/pizzaFondo.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fotoComprar {
+  background-image: url(../../mi_repositorio/Imagenes/fotoComprar.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.comprar {
+  text-align: left; }
+
+.fotoFondo {
+  background-image: url(../../mi_repositorio/Imagenes/fotoProductos);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fotoForm {
+  background-image: url(../../mi_repositorio/Imagenes/fotoFormulario.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fotoProductos {
+  background-image: url(../../mi_repositorio/Imagenes/fotoProd.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
