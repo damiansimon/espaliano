@@ -234,3 +234,9 @@ a:hover {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.fotoPromo {
+  background-image: url(../Imagenes/fotoPromo.jpg);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
