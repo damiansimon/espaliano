@@ -1,5 +1,5 @@
 body {
-  background-color: bisque; }
+  background-color: #797959; }
 
 .header {
   color: #dff8da;
@@ -116,7 +116,7 @@ footer {
 
 .fixed {
   position: fixed;
-  top: 35px;
+  top: 15px;
   right: 185px;
   width: 40px;
   height: 40px; }
@@ -126,7 +126,7 @@ footer {
   text-align: end;
   font-size: 20px;
   position: fixed;
-  top: 15px;
+  top: 0px;
   right: 70px;
   height: 40px;
   animation-name: fixed;
@@ -240,3 +240,113 @@ a:hover {
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+@media screen and (min-width: 320px) {
+  .header {
+    color: #dff8da;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px; }
+  fieldset {
+    background: #dda49a;
+    border: none;
+    border-radius: 25px;
+    width: 400px;
+    height: 375px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto; }
+  .input {
+    background-color: white;
+    border-radius: 10px;
+    width: 225px;
+    height: 35px; }
+  footer {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: #dff8da; }
+  .fixed {
+    position: static;
+    top: 30px;
+    right: 185px;
+    width: 40px;
+    height: 40px; }
+  .telefono {
+    font-family: "Sansita Swashed", cursive;
+    text-align: end;
+    font-size: 25px;
+    position: static;
+    text-align: center;
+    top: 15px;
+    height: 40px;
+    animation-name: none;
+    color: #eeeee5; }
+  .parrafo {
+    font-family: "Sansita Swashed", cursive;
+    text-align: center;
+    font-size: 25px;
+    color: white; }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start; } }
+
+@media screen and (min-width: 768px) {
+  .header {
+    color: #dff8da;
+    font-family: "Sansita Swashed", cursive;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 10px; }
+  .fixed {
+    position: fixed;
+    top: 15px;
+    right: 185px;
+    width: 40px;
+    height: 40px; }
+  .telefono {
+    font-family: "Sansita Swashed", cursive;
+    text-align: end;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    right: 70px;
+    height: 40px;
+    animation-name: fixed;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; } }
+
+footer {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color: #dff8da; }
+  footer .input {
+    background-color: white;
+    border-radius: 10px;
+    width: 850px;
+    height: 25px; }
+  footer fieldset {
+    background: #dda49a;
+    border: none;
+    border-radius: 25px;
+    width: 1000px;
+    height: 375px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto; }
+  footer .parrafo {
+    font-family: "Sansita Swashed", cursive;
+    text-align: center;
+    font-size: 30px;
+    color: white; }
+  footer .contenedor {
+    display: flex;
+    flex-direction: row;
+    align-content: center; }
