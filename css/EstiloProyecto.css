@@ -218,7 +218,7 @@ a:hover {
   text-align: left; }
 
 .fotoFondo {
-  background-image: url(../Imagenes/fotoProductos);
+  background-image: url(../Imagenes/fotoProductos.jpg);
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat; }
